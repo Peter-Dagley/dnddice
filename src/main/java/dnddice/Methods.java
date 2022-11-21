@@ -12,7 +12,7 @@ public class Methods {
 		ArrayList<Integer> rolls = new ArrayList<Integer>();
 		int i;
 		for(i = 0; i < num1; i++) {
-			rolls.add(random.nextInt(4));
+			rolls.add(random.nextInt(4) + 1);
 		}
 		return rolls;
 	}
@@ -22,7 +22,7 @@ public class Methods {
 		ArrayList<Integer> rolls = new ArrayList<Integer>();
 		int i;
 		for(i = 0; i < num1; i++) {
-			rolls.add(random.nextInt(6));
+			rolls.add(random.nextInt(6) + 1);
 		}
 		return rolls;
 	}
@@ -32,7 +32,7 @@ public class Methods {
 		ArrayList<Integer> rolls = new ArrayList<Integer>();
 		int i;
 		for(i = 0; i < num1; i++) {
-			rolls.add(random.nextInt(8));
+			rolls.add(random.nextInt(8) + 1);
 		}
 		return rolls;
 	}
@@ -42,7 +42,7 @@ public class Methods {
 		ArrayList<Integer> rolls = new ArrayList<Integer>();
 		int i;
 		for(i = 0; i < num1; i++) {
-			rolls.add(random.nextInt(12));
+			rolls.add(random.nextInt(12) + 1);
 		}
 		return rolls;
 	}
@@ -52,7 +52,7 @@ public class Methods {
 		ArrayList<Integer> rolls = new ArrayList<Integer>();
 		int i;
 		for(i = 0; i < num1; i++) {
-			rolls.add(random.nextInt(20));
+			rolls.add(random.nextInt(20) + 1);
 		}
 		return rolls;
 	}
